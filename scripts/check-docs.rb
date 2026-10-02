@@ -24,7 +24,9 @@ files.each do |file|
     end
     if line.match?(/^[#]{2,6} /)
       next_content = lines[(index + 1)..-1].find { |following| !following.empty? }
-      if next_content.nil? || next_content.match?(/^[#]{1,6} /)
+      next_heading = next_content && next_content.match(/^([#]{1,6}) /)
+      current_level = line[/\A#+/].length
+      if next_content.nil? || (next_heading && next_heading[1].length <= current_level)
         errors << "#{file}:#{index + 1}: empty section"
       end
     end
