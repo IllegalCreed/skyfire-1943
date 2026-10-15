@@ -10,6 +10,12 @@ fi
 
 mkdir -p work
 touch work/.gdignore
+import_log="$PWD/work/test-import.log"
+"$game_engine" --headless --editor --import --path "$PWD" --log-file "$import_log"
+if rg -n 'SCRIPT ERROR|ERROR:|Assertion failed' "$import_log"; then
+  echo 'Resource import failed.' >&2
+  exit 1
+fi
 smoke_log="$PWD/work/test-smoke.log"
 "$game_engine" --headless --path "$PWD" --quit-after 8 --log-file "$smoke_log" -- --smoke
 

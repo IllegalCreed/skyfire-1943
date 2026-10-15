@@ -9,6 +9,7 @@ const ART := preload("res://src/rendering/aircraft_art.gd")
 static func run(game) -> void:
 	var seen: Dictionary = {}
 	var vessels: Dictionary = {}
+	var saw_bonus := false
 	game.start_game()
 	for wave in range(12):
 		game._clear_combat()
@@ -16,9 +17,11 @@ static func run(game) -> void:
 		for enemy in game.enemies:
 			if enemy.surface: vessels[enemy.vessel] = true
 			else:
-				seen[enemy.kind] = true
+				if ROSTER.is_bonus(enemy.kind): saw_bonus = true
+				else: seen[enemy.kind] = true
 				assert(enemy.hp == ROSTER.profile(enemy.kind).hp, "Live chase waves apply each role's durability")
 	assert(seen.size() == 3 and vessels.size() == 2, "Natural waves expose all three aircraft and both vessels")
+	assert(saw_bonus, "Bonus aircraft appears in natural waves")
 	for kind in ROSTER.KINDS:
 		var spec := ROSTER.profile(kind)
 		var shots := ROSTER.shot_velocities(kind, Vector2.DOWN, true, 6)

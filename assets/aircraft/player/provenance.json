@@ -1,0 +1,1745 @@
+{
+	"atlas_columns": 16,
+	"frame_ms": 40.0,
+	"geometry_sha256": "88a63a35f178d8a7a3047eb141b65d57bd152a199dacc22c781b3835c65fce69",
+	"geometry_unchanged": true,
+	"outline": "36-color opaque body from independent coverage pass; outside-only 1px contour; transparent prop FX retained",
+	"padding": 2,
+	"poses": {
+		"chase-p0-r0": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.16047,
+				0.90216,
+				0.90804
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": -0.33727,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r1": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.18458,
+				0.91783,
+				0.89231
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": -0.35239,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r2": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.2111,
+				0.92853,
+				0.87421
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": -0.36331,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r3": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.23969,
+				0.93413,
+				0.85396
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": -0.36992,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r4": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.2639,
+				0.93458,
+				0.8318
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": -0.37213,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r5": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.23969,
+				0.93272,
+				0.85396
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": -0.36992,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r6": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.2111,
+				0.92571,
+				0.87421
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": -0.36331,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r7": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.18458,
+				0.91364,
+				0.89231
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": -0.35239,
+			"yaw_degrees": 0.0
+		},
+		"chase-p0-r8": {
+			"forward": [
+				0.0,
+				0.90631,
+				-0.42262
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.16047,
+				0.89665,
+				0.90804
+			],
+			"pitch_degrees": -25.0,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": -0.33727,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r0": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.18055,
+				0.90216,
+				0.86069
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": -0.24368,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r1": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.20559,
+				0.91783,
+				0.84436
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": -0.25461,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r2": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.23312,
+				0.92853,
+				0.82557
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": -0.2625,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r3": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.26281,
+				0.93413,
+				0.80455
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": -0.26728,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r4": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.28814,
+				0.93458,
+				0.78154
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": -0.26887,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r5": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.26281,
+				0.93272,
+				0.80455
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": -0.26728,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r6": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.23312,
+				0.92571,
+				0.82557
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": -0.2625,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r7": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.20559,
+				0.91364,
+				0.84436
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": -0.25461,
+			"yaw_degrees": 0.0
+		},
+		"chase-p1-r8": {
+			"forward": [
+				0.0,
+				0.94693,
+				-0.32144
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.18055,
+				0.89665,
+				0.86069
+			],
+			"pitch_degrees": -18.75,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": -0.24368,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r0": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.1958,
+				0.90216,
+				0.80894
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": -0.1472,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r1": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.22999,
+				0.91783,
+				0.7922
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": -0.1538,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r2": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.2582,
+				0.92853,
+				0.77295
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": -0.15857,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r3": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.28863,
+				0.93413,
+				0.7514
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": -0.16145,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r4": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.31479,
+				0.93458,
+				0.72782
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": -0.16242,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r5": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.28863,
+				0.93272,
+				0.7514
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": -0.16145,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r6": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.2582,
+				0.92571,
+				0.77295
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": -0.15857,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r7": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.22999,
+				0.91364,
+				0.7922
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": -0.1538,
+			"yaw_degrees": 0.0
+		},
+		"chase-p2-r8": {
+			"forward": [
+				0.0,
+				0.9763,
+				-0.21644
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.1958,
+				0.89665,
+				0.80894
+			],
+			"pitch_degrees": -12.5,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": -0.1472,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r0": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.21212,
+				0.90216,
+				0.75341
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": -0.04897,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r1": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.25748,
+				0.91783,
+				0.73647
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": -0.05116,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r2": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.28605,
+				0.92853,
+				0.71697
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": -0.05275,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r3": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.31685,
+				0.93413,
+				0.69516
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": -0.05371,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r4": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.34353,
+				0.93458,
+				0.67128
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": -0.05403,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r5": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.31685,
+				0.93272,
+				0.69516
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": -0.05371,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r6": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.28605,
+				0.92571,
+				0.71697
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": -0.05275,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r7": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.25748,
+				0.91364,
+				0.73647
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": -0.05116,
+			"yaw_degrees": 0.0
+		},
+		"chase-p3-r8": {
+			"forward": [
+				0.0,
+				0.99406,
+				-0.10887
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.21212,
+				0.89665,
+				0.75341
+			],
+			"pitch_degrees": -6.25,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": -0.04897,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r0": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.21494,
+				0.90216,
+				0.75254
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": 0.04984,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r1": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.27243,
+				0.91783,
+				0.70216
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": 0.05208,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r2": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.31633,
+				0.92853,
+				0.67297
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": 0.05369,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r3": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.34714,
+				0.93413,
+				0.64467
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": 0.05467,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r4": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.37385,
+				0.93458,
+				0.62079
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.055,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r5": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.34714,
+				0.93272,
+				0.64467
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": 0.05467,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r6": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.31633,
+				0.92571,
+				0.67297
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": 0.05369,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r7": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.27243,
+				0.91364,
+				0.70216
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": 0.05208,
+			"yaw_degrees": 0.0
+		},
+		"chase-p4-r8": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.21494,
+				0.89665,
+				0.75254
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": 0.04984,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r0": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.20286,
+				0.90216,
+				0.76804
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": 0.14026,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r1": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.25977,
+				0.91783,
+				0.72794
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": 0.14654,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r2": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.30543,
+				0.92853,
+				0.69904
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": 0.15109,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r3": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.32865,
+				0.93413,
+				0.66817
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": 0.15384,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r4": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.35283,
+				0.93458,
+				0.63568
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.15476,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r5": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.32865,
+				0.93272,
+				0.66817
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": 0.15384,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r6": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.30543,
+				0.92571,
+				0.69904
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": 0.15109,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r7": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.25977,
+				0.91364,
+				0.72794
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": 0.14654,
+			"yaw_degrees": 0.0
+		},
+		"chase-p5-r8": {
+			"forward": [
+				0.0,
+				0.99497,
+				0.10019
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.20286,
+				0.89665,
+				0.76804
+			],
+			"pitch_degrees": 5.75,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": 0.14026,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r0": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.19368,
+				0.90216,
+				0.78075
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": 0.22926,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r1": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.23306,
+				0.91783,
+				0.75134
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": 0.23953,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r2": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.25459,
+				0.92853,
+				0.72302
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": 0.24696,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r3": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.27734,
+				0.93413,
+				0.69278
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": 0.25146,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r4": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.30103,
+				0.93458,
+				0.66095
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.25296,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r5": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.27734,
+				0.93272,
+				0.69278
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": 0.25146,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r6": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.25459,
+				0.92571,
+				0.72302
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": 0.24696,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r7": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.23306,
+				0.91364,
+				0.75134
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": 0.23953,
+			"yaw_degrees": 0.0
+		},
+		"chase-p6-r8": {
+			"forward": [
+				0.0,
+				0.97992,
+				0.19937
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.19368,
+				0.89665,
+				0.78075
+			],
+			"pitch_degrees": 11.5,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": 0.22926,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r0": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.16581,
+				0.90216,
+				0.79735
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": 0.31595,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r1": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.18526,
+				0.91783,
+				0.77211
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": 0.33011,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r2": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.20614,
+				0.92853,
+				0.74467
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": 0.34035,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r3": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.22818,
+				0.93413,
+				0.71535
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": 0.34654,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r4": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.25114,
+				0.93458,
+				0.68451
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.34862,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r5": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.22818,
+				0.93272,
+				0.71535
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": 0.34654,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r6": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.20614,
+				0.92571,
+				0.74467
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": 0.34035,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r7": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.18526,
+				0.91364,
+				0.77211
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": 0.33011,
+			"yaw_degrees": 0.0
+		},
+		"chase-p7-r8": {
+			"forward": [
+				0.0,
+				0.95502,
+				0.29654
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.16581,
+				0.89665,
+				0.79735
+			],
+			"pitch_degrees": 17.25,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": 0.31595,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r0": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.10335,
+				0.12191,
+				0.90216,
+				0.81423
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": -25.0,
+			"top_facing_camera_dot": 0.39947,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r1": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.08636,
+				0.14054,
+				0.91783,
+				0.79005
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": -18.75,
+			"top_facing_camera_dot": 0.41737,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r2": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.07429,
+				0.16054,
+				0.92853,
+				0.76376
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": -12.5,
+			"top_facing_camera_dot": 0.43032,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r3": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.06728,
+				0.18167,
+				0.93413,
+				0.73567
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": -6.25,
+			"top_facing_camera_dot": 0.43814,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r4": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.20366,
+				0.93458,
+				0.71111
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.44076,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r5": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.06587,
+				0.18167,
+				0.93272,
+				0.73567
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": 6.25,
+			"top_facing_camera_dot": 0.43814,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r6": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.07147,
+				0.16054,
+				0.92571,
+				0.76376
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": 12.5,
+			"top_facing_camera_dot": 0.43032,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r7": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.08217,
+				0.14054,
+				0.91364,
+				0.79005
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": 18.75,
+			"top_facing_camera_dot": 0.41737,
+			"yaw_degrees": 0.0
+		},
+		"chase-p8-r8": {
+			"forward": [
+				0.0,
+				0.9205,
+				0.39073
+			],
+			"normalized_bounds": [
+				0.09784,
+				0.12191,
+				0.89665,
+				0.81423
+			],
+			"pitch_degrees": 23.0,
+			"roll_degrees": 25.0,
+			"top_facing_camera_dot": 0.39947,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r0": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.16635,
+				0.91928,
+				0.78702
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -26.0,
+			"top_facing_camera_dot": -0.43304,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r1": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.23166,
+				0.91928,
+				0.73533
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -19.5,
+			"top_facing_camera_dot": -0.32832,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r2": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.2656,
+				0.91928,
+				0.71226
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -13.0,
+			"top_facing_camera_dot": -0.21937,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r3": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.30237,
+				0.91928,
+				0.68627
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -6.5,
+			"top_facing_camera_dot": -0.1076,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r4": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.3347,
+				0.91928,
+				0.65771
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.00555,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r5": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.30237,
+				0.91928,
+				0.68627
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 6.5,
+			"top_facing_camera_dot": 0.11863,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r6": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.2656,
+				0.91928,
+				0.71226
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 13.0,
+			"top_facing_camera_dot": 0.23019,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r7": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.23166,
+				0.91928,
+				0.73533
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 19.5,
+			"top_facing_camera_dot": 0.33878,
+			"yaw_degrees": 0.0
+		},
+		"side-p0-r8": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.11038,
+				0.16635,
+				0.91928,
+				0.78702
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 26.0,
+			"top_facing_camera_dot": 0.44302,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r0": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.10651,
+				0.14378,
+				0.8992,
+				0.85553
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -26.0,
+			"top_facing_camera_dot": 0.82022,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r1": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.08814,
+				0.14996,
+				0.9162,
+				0.85473
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -19.5,
+			"top_facing_camera_dot": 0.86023,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r2": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.07507,
+				0.15661,
+				0.92786,
+				0.8537
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -13.0,
+			"top_facing_camera_dot": 0.88919,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r3": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06747,
+				0.16367,
+				0.93401,
+				0.85244
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": -6.5,
+			"top_facing_camera_dot": 0.90671,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r4": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06542,
+				0.17103,
+				0.93458,
+				0.85097
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 0.0,
+			"top_facing_camera_dot": 0.91258,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r5": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.06599,
+				0.16367,
+				0.93253,
+				0.85244
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 6.5,
+			"top_facing_camera_dot": 0.90671,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r6": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.07214,
+				0.15661,
+				0.92493,
+				0.8537
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 13.0,
+			"top_facing_camera_dot": 0.88919,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r7": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.0838,
+				0.14996,
+				0.91186,
+				0.85473
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 19.5,
+			"top_facing_camera_dot": 0.86023,
+			"yaw_degrees": 0.0
+		},
+		"top-p0-r8": {
+			"forward": [
+				0.0,
+				1.0,
+				0.0
+			],
+			"normalized_bounds": [
+				0.1008,
+				0.14378,
+				0.89349,
+				0.85553
+			],
+			"pitch_degrees": 0.0,
+			"roll_degrees": 26.0,
+			"top_facing_camera_dot": 0.82022,
+			"yaw_degrees": 0.0
+		}
+	},
+	"prop_frames": 8.0,
+	"propeller_fx": [
+		{
+			"axis_object": "Left propeller rotation",
+			"depth_tested": true,
+			"hidden_blades": [
+				"Left shaped propeller blade",
+				"Left shaped propeller blade.001"
+			],
+			"radius_model_units": 0.920536,
+			"render_only": true
+		},
+		{
+			"axis_object": "Right propeller rotation",
+			"depth_tested": true,
+			"hidden_blades": [
+				"Right shaped propeller blade",
+				"Right shaped propeller blade.001"
+			],
+			"radius_model_units": 0.920536,
+			"render_only": true
+		}
+	],
+	"roll_steps": 9.0,
+	"source_sha256": "aea5a49bc72da47d18e81f79b4d60bc6af0e4b688dfcc9d2cd0501e1ce9380fe",
+	"source_unchanged": true,
+	"views": {
+		"chase": {
+			"pitch_steps": 9.0,
+			"roll_max": 25.0,
+			"size": [
+				112.0,
+				84.0
+			]
+		},
+		"side": {
+			"pitch_steps": 1.0,
+			"roll_max": 26.0,
+			"size": [
+				80.0,
+				60.0
+			]
+		},
+		"top": {
+			"pitch_steps": 1.0,
+			"roll_max": 26.0,
+			"size": [
+				64.0,
+				64.0
+			]
+		}
+	}
+}

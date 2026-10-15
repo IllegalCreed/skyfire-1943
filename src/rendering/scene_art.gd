@@ -1,6 +1,8 @@
 extends RefCounted
 ## Original fictional island-chain scenery; subdued compared with live targets.
 
+const VESSEL_ART := preload("res://src/rendering/vessel_art.gd")
+
 static func draw_chase_landmarks(c: Node2D, flight) -> void:
 	var h: float = flight.horizon()
 	if not flight.sea_visible(): return
@@ -96,15 +98,11 @@ static func _draw_coastal_airfield(c: Node2D, y: float) -> void:
 
 static func _draw_convoy(c: Node2D, pos: Vector2, scale: float) -> void:
 	c.draw_set_transform(pos,0,Vector2.ONE*scale)
-	c.draw_colored_polygon(PackedVector2Array([Vector2(0,-40),Vector2(13,-24),Vector2(13,32),
-		Vector2(0,39),Vector2(-13,32),Vector2(-13,-24)]),Color("577779"))
-	c.draw_rect(Rect2(-9,-21,18,45),Color("87968b"))
-	for y in [-15,2]: c.draw_rect(Rect2(-7,y,14,12),Color("4a6364"))
-	c.draw_rect(Rect2(-7,23,14,6),Color("a0ac99"))
-	c.draw_line(Vector2(0,37),Vector2(0,93),Color("477483"),2)
+	c.draw_line(Vector2(0,40),Vector2(0,93),Color("477483"),2)
 	c.draw_line(Vector2(-4,43),Vector2(-13,87),Color("3b6878"),1)
 	c.draw_line(Vector2(4,43),Vector2(13,87),Color("3b6878"),1)
 	c.draw_set_transform(Vector2.ZERO)
+	VESSEL_ART.draw_vessel(c,pos,scale,false,"cargo",Color("658a88"),true)
 
 static func draw_side(c: Node2D, time: float, ceiling: Callable, floor_line: Callable) -> void:
 	for row in range(0,540,8):

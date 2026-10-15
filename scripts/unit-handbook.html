@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Skyfire 1943 · 单位图鉴</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1928;--panel:#112638;--line:#2c4657;--text:#edf7eb;--muted:#a3bac0;--teal:#69e6d2;--gold:#ffba68;--red:#ff6872}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Heiti SC",sans-serif}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}button{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:6px;padding:8px 16px}button:hover{background:#203c4a}button[aria-pressed=true]{border-color:var(--teal);background:#254a52;color:var(--teal)}h1,h2,h3,p{margin:0}h1{font-size:36px;line-height:1.3}h2{font-size:29px;line-height:1.4}h3{font-size:18px}a{color:var(--teal)}.shell{max-width:1360px;margin:auto;padding:38px 32px 56px}.masthead{display:flex;align-items:start;justify-content:space-between;gap:24px;padding-bottom:25px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--teal);font-size:12px;letter-spacing:.18em;margin-bottom:10px}.masthead p{color:var(--muted);margin-top:10px;max-width:850px}.version{color:var(--gold);white-space:nowrap;font-variant-numeric:tabular-nums}.modebar{display:flex;gap:10px;align-items:center;margin-top:18px}.modebar button{border-color:var(--teal)}.filters{display:flex;gap:9px;flex-wrap:wrap;padding:24px 0}.workspace{display:grid;grid-template-columns:245px minmax(0,1fr);gap:28px}.unit-list{display:flex;flex-direction:column;gap:8px}.unit-button{text-align:left;display:flex;flex-direction:column;padding:12px 15px;min-height:67px;width:100%;border-left:3px solid var(--line)}.unit-button[aria-pressed=true]{border-left-color:var(--gold)}.unit-button small{color:var(--muted);font-size:12px}.unit-button[data-category=bonus]{border-left-color:var(--gold)}.unit-button[data-category=allied]{border-left-color:var(--teal)}.unit-button[data-category=plan]{opacity:.83}.detail{min-width:0}.detail-title{display:flex;justify-content:space-between;gap:16px;align-items:center}.status{display:inline-block;border:1px solid var(--line);border-radius:4px;padding:3px 10px;color:var(--teal);font-size:12px;white-space:nowrap}.status.draft{color:var(--gold)}.summary{color:var(--muted);margin:10px 0 20px}.columns{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:24px}.portrait{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#102236}.portrait img{display:block;width:100%;height:auto;aspect-ratio:1.6;object-fit:contain}.portrait figcaption{font-size:12px;color:var(--muted);padding:10px 15px;border-top:1px solid var(--line)}figure{margin:0}.views{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}.views button{font-size:14px;padding:6px 14px}.blueprint-empty{aspect-ratio:1.6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--muted);background:repeating-linear-gradient(0deg,transparent,transparent 47px,#193144 48px),repeating-linear-gradient(90deg,transparent,transparent 47px,#193144 48px)}.blueprint-empty strong{font-size:23px;font-weight:500;color:var(--text)}.section{padding:18px 0;border-top:1px solid var(--line)}.section p,.section ul{margin-top:9px}.section ul{padding-left:21px;margin-bottom:0}.section li{margin:4px 0}.reward{color:var(--gold)}.parameters{width:100%;border-collapse:collapse;font-size:14px}.parameters td{padding:9px 0;border-bottom:1px solid var(--line);vertical-align:top}.parameters td:first-child{color:var(--muted);width:44%;padding-right:14px}.parameters td:last-child{font-variant-numeric:tabular-nums}.compare-action{margin-top:22px}.notice{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:15px;margin-top:20px}.comparison{margin-top:35px;border-top:1px solid var(--line);padding-top:24px}.comparison-header{display:flex;justify-content:space-between;align-items:center;gap:16px}.table-scroll{overflow:auto;margin-top:16px}.comparison table{width:100%;min-width:520px;border-collapse:collapse;font-size:14px}.comparison th,.comparison td{padding:13px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}.comparison th{color:var(--teal);font-weight:500}.comparison td:first-child{color:var(--muted)}.message{color:var(--gold);margin-top:8px;min-height:25px;font-size:14px}.design-gallery{border-top:1px solid var(--line);padding-top:24px}.design-header{display:flex;justify-content:space-between;gap:18px;align-items:start}.design-header p{color:var(--muted);margin-top:8px;max-width:850px}.design-workspace{display:grid;grid-template-columns:245px minmax(0,1fr);gap:28px;margin-top:24px}.design-filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.design-list{display:flex;flex-direction:column;gap:8px}.design-button{text-align:left;display:flex;flex-direction:column;padding:12px 15px;min-height:68px;width:100%;border-left:3px solid var(--line)}.design-button[aria-pressed=true]{border-left-color:var(--gold)}.design-button small{color:var(--muted);font-size:12px}.design-button[data-medium="Blender精模"]{border-left-color:var(--gold)}.design-button[data-medium="像素候选"]{border-left-color:var(--teal)}.design-button[data-medium="3D结构参考"]{border-left-color:#7187a7}.design-detail{min-width:0}.design-image{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#102236}.design-image img{display:block;width:100%;height:auto;max-height:720px;object-fit:contain}.design-image figcaption{font-size:12px;color:var(--muted);padding:10px 15px;border-top:1px solid var(--line)}.design-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}.design-meta div{border:1px solid var(--line);border-radius:5px;padding:10px 12px}.design-meta strong{display:block;color:var(--muted);font-size:12px;font-weight:400}.design-meta span{display:block;margin-top:3px}.design-note{color:var(--gold);font-size:13px;margin-top:18px}.footer{color:var(--muted);font-size:12px;margin-top:35px;padding-top:20px;border-top:1px solid var(--line)}[hidden]{display:none!important}@media(max-width:1000px){.columns{grid-template-columns:1fr}.workspace,.design-workspace{grid-template-columns:220px minmax(0,1fr)}.portrait{max-width:650px}}@media(max-width:680px){.shell{padding:24px 16px}.masthead{display:block}h1{font-size:28px}.version{margin-top:13px}.modebar{flex-wrap:wrap}.workspace,.design-workspace{display:block}.unit-list,.design-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:26px}.unit-button,.design-button{padding:10px;min-height:72px;font-size:14px}.detail-title,.design-header{align-items:start}.design-meta{grid-template-columns:1fr}h2{font-size:25px}.filters,.design-filters{gap:7px}.filters button,.design-filters button{padding:7px 12px;font-size:14px}.parameters td:first-child{width:40%}}@media print{body{background:white;color:#172735}.unit-list,.filters,.views,.compare-action,.modebar,.design-filters{display:none}.shell{padding:0}.workspace,.columns,.design-workspace{display:block}.portrait,.design-image{width:55%}.section,.parameters td,.design-meta div{border-color:#bbb}.summary,.notice,.footer,.parameters td:first-child,.design-header p,.design-note{color:#345}.status{color:#345}}
+  </style>
+</head>
+<body>
+<main class="shell">
+  <header class="masthead"><div><div class="eyebrow">SKYFIRE 1943 / FIELD GUIDE</div><h1>单位图鉴</h1><p>浏览实际游戏造型、飞行特点、耐久、火力与掉落。图片由游戏绘制函数直接渲染；设计草案单独标注。</p><div class="modebar"><button type="button" id="open-designs">打开我方战机设计稿</button><span id="mode-note" class="notice">当前为运行时单位资料</span></div></div><div class="version" id="version"></div></header>
+  <nav class="filters" id="filters" aria-label="单位类别"></nav>
+  <div class="workspace" id="unit-workspace"><nav class="unit-list" id="unit-list" aria-label="选择单位"></nav><article class="detail" id="detail" aria-live="polite"></article></div>
+  <p id="message" class="message" role="status"></p>
+  <section class="comparison" id="comparison" hidden><div class="comparison-header"><h2>单位对比</h2><button type="button" id="clear-compare">清空对比</button></div><div class="table-scroll" id="comparison-table"></div></section>
+  <section class="design-gallery" id="design-gallery" hidden aria-labelledby="design-title"><div class="design-header"><div><h2 id="design-title">我方战机姿态设计稿</h2><p id="design-notice"></p></div><button type="button" id="close-designs">返回单位图鉴</button></div><div class="design-filters" id="design-filters" aria-label="设计稿筛选"></div><div class="design-workspace"><nav class="design-list" id="design-list" aria-label="选择独立设计稿"></nav><article class="design-detail" id="design-detail" aria-live="polite"></article></div></section>
+  <footer class="footer">本文件可离线打开。当前图鉴按版本生成；再次生成会同步最新造型和配置。原型内部单位不是米，逻辑像素基于 960×540 坐标；实际画面渲染为 1920×1080。舰炮等装饰细节不代表已经有独立攻击或部件破坏系统。</footer>
+</main>
+<script type="application/json" id="catalog-data">__SKYFIRE_CATALOG__</script>
+<script>
+(() => {
+  'use strict';
+  const catalog=JSON.parse(document.getElementById('catalog-data').textContent);
+  const units=catalog.units, designs=catalog.designs||[], labels={0:'横版侧视',1:'俯视',2:'追尾观察'};
+  const viewLabel=(unit,v)=>unit.view_labels?.[String(v)]??labels[v];
+  const categories=[['all','全部'],['allied','我方'],['air','普通敌机'],['bonus','奖励敌机'],['sea','敌船'],['plan','设计草案']];
+  const byId=id=>units.find(unit=>unit.id===id);
+  const esc=text=>String(text).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+  let selected=byId(location.hash.slice(1))?.id||'allied', filter='all', view=2, compare=[];
+  let requestedDesign='';
+  try{if(location.hash.startsWith('#design='))requestedDesign=decodeURIComponent(location.hash.slice(8));}catch{}
+  let selectedDesign=designs.some(asset=>asset.id===requestedDesign)?requestedDesign:designs[0]?.id||'', designFilter='all', mode='units';
+  let animationTimer=null;
+  let animationPaused=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const animationEpoch=performance.now();
+  function stopDesignAnimation(){if(animationTimer!==null){clearInterval(animationTimer);animationTimer=null;}}
+  const filters=document.getElementById('filters'),list=document.getElementById('unit-list'),detail=document.getElementById('detail');
+  const unitWorkspace=document.getElementById('unit-workspace'),comparison=document.getElementById('comparison');
+  const gallery=document.getElementById('design-gallery'),designFilters=document.getElementById('design-filters'),designList=document.getElementById('design-list'),designDetail=document.getElementById('design-detail');
+  const modeNote=document.getElementById('mode-note');
+  document.getElementById('version').textContent=`v${catalog.version} · ${catalog.date}`;
+  function drawFilters(){filters.innerHTML=categories.map(([id,label])=>`<button type="button" data-filter="${id}" aria-pressed="${filter===id}">${label}</button>`).join('');}
+  function drawList(){
+    const visible=units.filter(unit=>filter==='all'||unit.category===filter);
+    list.innerHTML=visible.map(unit=>`<button type="button" class="unit-button" data-unit="${unit.id}" data-category="${unit.category}" aria-pressed="${selected===unit.id}"><span>${esc(unit.name)}</span><small>${esc(unit.role)} · ${esc(unit.status)}</small></button>`).join('');
+  }
+  function drawDetail(){
+    const unit=byId(selected),draft=unit.category==='plan';
+    if(!unit.views.includes(view)) view=unit.views[unit.views.length-1]??2;
+    const image=unit.images?.[String(view)];
+    const portrait=image?`<img src="${image}" alt="${esc(unit.name)}的${esc(viewLabel(unit,view))}实际游戏造型" width="768" height="480">`:`<div class="blueprint-empty"><strong>外观尚未定稿</strong><span>设计草案 · 未在游戏中实现</span></div>`;
+    detail.innerHTML=`<header class="detail-title"><h2>${esc(unit.name)}</h2><span class="status ${draft?'draft':''}">${esc(unit.status)}</span></header><p class="summary">${esc(unit.summary)}</p><div class="columns"><div><figure class="portrait">${portrait}<figcaption>${draft?'当前只记录设计方向，没有实际造型或战斗参数。':'实际引擎渲染 · 同一套游戏绘制代码 · 静态造型展示'}</figcaption></figure><div class="views" role="group" aria-label="观察视角">${unit.views.map(v=>`<button type="button" data-view="${v}" aria-pressed="${view===v}">${esc(viewLabel(unit,v))}</button>`).join('')}</div><section class="section"><h3>造型与特点</h3><ul>${unit.traits.map(text=>`<li>${esc(text)}</li>`).join('')}</ul></section><section class="section"><h3>奖励与掉落</h3><p class="reward">${esc(unit.reward)}</p></section></div><div><section class="section"><h3>火力</h3><p>${esc(unit.weapons)}</p></section><section class="section"><h3>参数与规则</h3><table class="parameters"><tbody>${Object.entries(unit.stats).map(([key,value])=>`<tr><td>${esc(key)}</td><td>${esc(value)}</td></tr>`).join('')}</tbody></table></section><button class="compare-action" type="button" id="add-compare" aria-pressed="${compare.includes(unit.id)}">${compare.includes(unit.id)?'从对比中移除':'加入对比'}</button><p class="notice">${draft?'草案中的时长和部件不是当前游戏配置；具体耐久、火力和节奏待验证。':'数据为当前原型实现；不等于正式战役平衡定稿。只改造型不会扩大命中框。'}</p></div></div>`;
+  }
+  function drawCompare(){
+    const section=document.getElementById('comparison');section.hidden=compare.length===0;
+    if(!compare.length)return;
+    const selectedUnits=compare.map(byId),fields=[...new Set(selectedUnits.flatMap(unit=>Object.keys(unit.stats)))];
+    document.getElementById('comparison-table').innerHTML=`<table><thead><tr><th scope="col">规则</th>${selectedUnits.map(unit=>`<th scope="col">${esc(unit.name)}</th>`).join('')}</tr></thead><tbody><tr><td>状态</td>${selectedUnits.map(unit=>`<td>${esc(unit.status)}</td>`).join('')}</tr><tr><td>火力</td>${selectedUnits.map(unit=>`<td>${esc(unit.weapons)}</td>`).join('')}</tr>${fields.map(key=>`<tr><td>${esc(key)}</td>${selectedUnits.map(unit=>`<td>${esc(unit.stats[key]??'—')}</td>`).join('')}</tr>`).join('')}<tr><td>奖励</td>${selectedUnits.map(unit=>`<td>${esc(unit.reward)}</td>`).join('')}</tr></tbody></table>`;
+  }
+  function drawDesignFilters(){
+    const options=[['all','全部'],['俯视','俯视'],['横版','横版'],['追尾','追尾'],['模型姿态','模型姿态'],['Blender精模','历史模型'],['3D结构参考','结构参考'],['像素候选','像素候选']].filter(([id])=>id==='all'||designs.some(asset=>asset.medium===id||asset.view===id));
+    designFilters.innerHTML=options.map(([id,label])=>`<button type="button" data-design-filter="${esc(id)}" aria-pressed="${designFilter===id}">${label}</button>`).join('');
+  }
+  function visibleDesigns(){return designs.filter(asset=>designFilter==='all'||asset.medium===designFilter||asset.view===designFilter);}
+  function drawDesignList(){
+    const visible=visibleDesigns();
+    if(!visible.some(asset=>asset.id===selectedDesign))selectedDesign=visible[0]?.id||'';
+    if(mode==='designs'&&selectedDesign){try{history.replaceState(null,'',`#design=${encodeURIComponent(selectedDesign)}`);}catch{}}
+    designList.innerHTML=visible.map(asset=>`<button type="button" class="design-button" data-design="${esc(asset.id)}" data-medium="${esc(asset.medium)}" aria-pressed="${selectedDesign===asset.id}"><span>${esc(asset.title)}</span><small>${esc(asset.medium)} · ${esc(asset.status)}</small></button>`).join('');
+  }
+  function drawDesignDetail(){
+    stopDesignAnimation();
+    const asset=designs.find(item=>item.id===selectedDesign);
+    if(!asset){designDetail.innerHTML='<p class="notice">暂无独立设计稿。先生成设计稿后重新构建图鉴。</p>';return;}
+    designDetail.innerHTML=`<header class="detail-title"><h2>${esc(asset.title)}</h2><span class="status ${asset.status.includes('待审')?'draft':''}">${esc(asset.status)}</span></header><p class="summary">${esc(asset.description)}</p><figure class="design-image"><img id="design-active-image" src="${asset.image}" alt="${esc(asset.title)}独立设计稿" width="1024" height="1024" style="image-rendering:${asset.pixelated?'pixelated':'auto'}"><figcaption>独立文件 · ${esc(asset.medium)} · 不会自动替换当前游戏资源${asset.frames?.length?' · 含螺旋桨循环':''}</figcaption></figure>${asset.frames?.length?'<button type="button" id="design-animation" aria-pressed="false">播放螺旋桨</button>':''}<div class="design-meta"><div><strong>观察视角</strong><span>${esc(asset.view)}</span></div><div><strong>姿态</strong><span>${esc(asset.pose)}</span></div><div><strong>几何约束</strong><span>${esc(asset.geometry)}</span></div><div><strong>审核状态</strong><span>${esc(asset.status)}</span></div></div><p class="design-note">${esc(catalog.design_gallery?.notice||'设计稿与运行时单位分开管理。')}</p>`;
+    const animationButton=document.getElementById('design-animation');
+    if(animationButton){
+      const tick=()=>{const frame=Math.floor((performance.now()-animationEpoch)/(asset.frame_ms||83))%asset.frames.length;document.getElementById('design-active-image').src=asset.frames[frame];};
+      const toggle=()=>{if(animationTimer!==null){stopDesignAnimation();animationPaused=true;animationButton.textContent='播放螺旋桨';animationButton.setAttribute('aria-pressed','false');}else{animationPaused=false;tick();animationTimer=setInterval(tick,asset.frame_ms||83);animationButton.textContent='暂停螺旋桨';animationButton.setAttribute('aria-pressed','true');}};
+      animationButton.addEventListener('click',toggle);
+      if(!animationPaused)toggle();
+    }
+  }
+  function drawDesignGallery(){
+    document.getElementById('design-title').textContent=catalog.design_gallery?.title||'我方战机姿态设计稿';
+    document.getElementById('design-notice').textContent=catalog.design_gallery?.notice||'独立设计稿不会自动替换当前游戏绘制。';
+    drawDesignFilters();drawDesignList();drawDesignDetail();
+  }
+  function setMode(next){
+    mode=next;
+    const isDesign=next==='designs';
+    filters.hidden=isDesign;unitWorkspace.hidden=isDesign;comparison.hidden=isDesign||compare.length===0;gallery.hidden=!isDesign;
+    modeNote.textContent=isDesign?'独立姿态与像素候选 · 未接入游戏':'当前为运行时单位资料';
+    if(!isDesign){stopDesignAnimation();try{history.replaceState(null,'',`#${selected}`);}catch{}}
+    if(isDesign)drawDesignGallery();
+  }
+  filters.addEventListener('click',event=>{const button=event.target.closest('[data-filter]');if(!button)return;filter=button.dataset.filter;const eligible=units.filter(unit=>filter==='all'||unit.category===filter);if(!eligible.some(unit=>unit.id===selected))selected=eligible[0].id;drawFilters();drawList();drawDetail();});
+  list.addEventListener('click',event=>{const button=event.target.closest('[data-unit]');if(!button)return;selected=button.dataset.unit;try{history.replaceState(null,'',`#${selected}`);}catch{}drawList();drawDetail();});
+  detail.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.dataset.view!==undefined){view=Number(button.dataset.view);drawDetail();return;}if(button.id==='add-compare'){if(compare.includes(selected))compare=compare.filter(id=>id!==selected);else if(compare.length<3)compare.push(selected);else{document.getElementById('message').textContent='最多同时对比三个单位，请先移除一个。';return;}document.getElementById('message').textContent='';drawDetail();drawCompare();}});
+  document.getElementById('clear-compare').addEventListener('click',()=>{compare=[];drawCompare();drawDetail();});
+  document.getElementById('open-designs').addEventListener('click',()=>setMode('designs'));
+  document.getElementById('close-designs').addEventListener('click',()=>setMode('units'));
+  designFilters.addEventListener('click',event=>{const button=event.target.closest('[data-design-filter]');if(!button)return;designFilter=button.dataset.designFilter;drawDesignGallery();});
+  designList.addEventListener('click',event=>{const button=event.target.closest('[data-design]');if(!button)return;selectedDesign=button.dataset.design;try{history.replaceState(null,'',`#design=${encodeURIComponent(selectedDesign)}`);}catch{}drawDesignList();drawDesignDetail();});
+  drawFilters();drawList();drawDetail();setMode(requestedDesign?'designs':'units');
+})();
+</script>
+</body>
+</html>
